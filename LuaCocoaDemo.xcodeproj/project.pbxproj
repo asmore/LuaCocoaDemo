@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B398672143E929400D79012 /* LuaCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B398671143E929400D79012 /* LuaCocoa.framework */; };
+		8B39867D143E92AF00D79012 /* LuaCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B398671143E929400D79012 /* LuaCocoa.framework */; };
+		8B398688143E92C300D79012 /* LuaCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B398671143E929400D79012 /* LuaCocoa.framework */; };
+		8B39868A143E92C700D79012 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B398689143E92C700D79012 /* QuartzCore.framework */; };
+		8B398699143E92E200D79012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B39868F143E92E200D79012 /* InfoPlist.strings */; };
+		8B39869A143E92E200D79012 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B398691143E92E200D79012 /* MainMenu.xib */; };
+		8B39869B143E92E200D79012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B398693143E92E200D79012 /* main.m */; };
+		8B39869C143E92E200D79012 /* SimpleLuaView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B398694143E92E200D79012 /* SimpleLuaView-Info.plist */; };
+		8B39869E143E92E200D79012 /* SimpleLuaViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B398698143E92E200D79012 /* SimpleLuaViewAppDelegate.m */; };
+		8B39869F143E92FB00D79012 /* SimpleLuaView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B398695143E92E200D79012 /* SimpleLuaView.lua */; };
+		8B3986CA143E932200D79012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986C0143E932200D79012 /* InfoPlist.strings */; };
+		8B3986CB143E932200D79012 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986C2143E932200D79012 /* MainMenu.xib */; };
+		8B3986CC143E932200D79012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986C4143E932200D79012 /* main.m */; };
+		8B3986CD143E932200D79012 /* SimpleLuaOpenGLView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986C5143E932200D79012 /* SimpleLuaOpenGLView-Info.plist */; };
+		8B3986CF143E932200D79012 /* SimpleLuaOpenGLViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986C9143E932200D79012 /* SimpleLuaOpenGLViewAppDelegate.m */; };
+		8B3986D0143E933400D79012 /* SimpleLuaOpenGLView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986C6143E932200D79012 /* SimpleLuaOpenGLView.lua */; };
+		8B3986E8143E934A00D79012 /* CoreAnimationScriptability-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986DA143E934A00D79012 /* CoreAnimationScriptability-Info.plist */; };
+		8B3986E9143E934A00D79012 /* CoreAnimationScriptabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986DD143E934A00D79012 /* CoreAnimationScriptabilityAppDelegate.m */; };
+		8B3986EA143E934A00D79012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986DE143E934A00D79012 /* InfoPlist.strings */; };
+		8B3986EB143E934A00D79012 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986E0143E934A00D79012 /* MainMenu.xib */; };
+		8B3986EC143E934A00D79012 /* LCFileWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986E3143E934A00D79012 /* LCFileWatch.m */; };
+		8B3986ED143E934A00D79012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986E4143E934A00D79012 /* main.m */; };
+		8B3986EF143E934A00D79012 /* TextEditorSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3986E7143E934A00D79012 /* TextEditorSupport.m */; };
+		8B3986F0143E935C00D79012 /* MyAnimationDescription.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B3986E5143E934A00D79012 /* MyAnimationDescription.lua */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B39866A143E928E00D79012 /* SimpleLuaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLuaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B39866D143E928E00D79012 /* SimpleLuaView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLuaView-Info.plist"; sourceTree = "<group>"; };
+		8B398671143E929400D79012 /* LuaCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LuaCocoa.framework; path = /Library/Frameworks/LuaCocoa.framework; sourceTree = "<absolute>"; };
+		8B398677143E92A900D79012 /* SimpleLuaOpenGLView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLuaOpenGLView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B398679143E92A900D79012 /* SimpleLuaOpenGLView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLuaOpenGLView-Info.plist"; sourceTree = "<group>"; };
+		8B398682143E92BE00D79012 /* HybridCoreAnimationScriptability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridCoreAnimationScriptability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B398684143E92BE00D79012 /* HybridCoreAnimationScriptability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HybridCoreAnimationScriptability-Info.plist"; sourceTree = "<group>"; };
+		8B398689143E92C700D79012 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		8B398690143E92E200D79012 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B398692143E92E200D79012 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8B398693143E92E200D79012 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B398694143E92E200D79012 /* SimpleLuaView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleLuaView-Info.plist"; sourceTree = "<group>"; };
+		8B398695143E92E200D79012 /* SimpleLuaView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lua; path = SimpleLuaView.lua; sourceTree = "<group>"; };
+		8B398696143E92E200D79012 /* SimpleLuaView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLuaView_Prefix.pch; sourceTree = "<group>"; };
+		8B398697143E92E200D79012 /* SimpleLuaViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLuaViewAppDelegate.h; sourceTree = "<group>"; };
+		8B398698143E92E200D79012 /* SimpleLuaViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLuaViewAppDelegate.m; sourceTree = "<group>"; };
+		8B3986C1143E932200D79012 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B3986C3143E932200D79012 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8B3986C4143E932200D79012 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B3986C5143E932200D79012 /* SimpleLuaOpenGLView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleLuaOpenGLView-Info.plist"; sourceTree = "<group>"; };
+		8B3986C6143E932200D79012 /* SimpleLuaOpenGLView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lua; path = SimpleLuaOpenGLView.lua; sourceTree = "<group>"; };
+		8B3986C7143E932200D79012 /* SimpleLuaOpenGLView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLuaOpenGLView_Prefix.pch; sourceTree = "<group>"; };
+		8B3986C8143E932200D79012 /* SimpleLuaOpenGLViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLuaOpenGLViewAppDelegate.h; sourceTree = "<group>"; };
+		8B3986C9143E932200D79012 /* SimpleLuaOpenGLViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLuaOpenGLViewAppDelegate.m; sourceTree = "<group>"; };
+		8B3986DA143E934A00D79012 /* CoreAnimationScriptability-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoreAnimationScriptability-Info.plist"; sourceTree = "<group>"; };
+		8B3986DB143E934A00D79012 /* CoreAnimationScriptability_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationScriptability_Prefix.pch; sourceTree = "<group>"; };
+		8B3986DC143E934A00D79012 /* CoreAnimationScriptabilityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationScriptabilityAppDelegate.h; sourceTree = "<group>"; };
+		8B3986DD143E934A00D79012 /* CoreAnimationScriptabilityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationScriptabilityAppDelegate.m; sourceTree = "<group>"; };
+		8B3986DF143E934A00D79012 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B3986E1143E934A00D79012 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8B3986E2143E934A00D79012 /* LCFileWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCFileWatch.h; sourceTree = "<group>"; };
+		8B3986E3143E934A00D79012 /* LCFileWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCFileWatch.m; sourceTree = "<group>"; };
+		8B3986E4143E934A00D79012 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B3986E5143E934A00D79012 /* MyAnimationDescription.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lua; path = MyAnimationDescription.lua; sourceTree = "<group>"; };
+		8B3986E6143E934A00D79012 /* TextEditorSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditorSupport.h; sourceTree = "<group>"; };
+		8B3986E7143E934A00D79012 /* TextEditorSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditorSupport.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B398668143E928E00D79012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B398672143E929400D79012 /* LuaCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B398675143E92A900D79012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39867D143E92AF00D79012 /* LuaCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B398680143E92BE00D79012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B398688143E92C300D79012 /* LuaCocoa.framework in Frameworks */,
+				8B39868A143E92C700D79012 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B398655143E925700D79012 = {
+			isa = PBXGroup;
+			children = (
+				8B3986D9143E934A00D79012 /* HybridCoreAnimationScriptability */,
+				8B3986BF143E932200D79012 /* SimpleLuaOpenGLView */,
+				8B39868E143E92E200D79012 /* SimpleLuaView */,
+				8B39866B143E928E00D79012 /* Products */,
+				8B39866D143E928E00D79012 /* SimpleLuaView-Info.plist */,
+				8B398679143E92A900D79012 /* SimpleLuaOpenGLView-Info.plist */,
+				8B398684143E92BE00D79012 /* HybridCoreAnimationScriptability-Info.plist */,
+				8B39868B143E92CC00D79012 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B39866B143E928E00D79012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B39866A143E928E00D79012 /* SimpleLuaView.app */,
+				8B398677143E92A900D79012 /* SimpleLuaOpenGLView.app */,
+				8B398682143E92BE00D79012 /* HybridCoreAnimationScriptability.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B39868B143E92CC00D79012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B398671143E929400D79012 /* LuaCocoa.framework */,
+				8B398689143E92C700D79012 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B39868E143E92E200D79012 /* SimpleLuaView */ = {
+			isa = PBXGroup;
+			children = (
+				8B39868F143E92E200D79012 /* InfoPlist.strings */,
+				8B398691143E92E200D79012 /* MainMenu.xib */,
+				8B398693143E92E200D79012 /* main.m */,
+				8B398694143E92E200D79012 /* SimpleLuaView-Info.plist */,
+				8B398695143E92E200D79012 /* SimpleLuaView.lua */,
+				8B398696143E92E200D79012 /* SimpleLuaView_Prefix.pch */,
+				8B398697143E92E200D79012 /* SimpleLuaViewAppDelegate.h */,
+				8B398698143E92E200D79012 /* SimpleLuaViewAppDelegate.m */,
+			);
+			name = SimpleLuaView;
+			path = SourceCode/SimpleLuaView;
+			sourceTree = "<group>";
+		};
+		8B3986BF143E932200D79012 /* SimpleLuaOpenGLView */ = {
+			isa = PBXGroup;
+			children = (
+				8B3986C0143E932200D79012 /* InfoPlist.strings */,
+				8B3986C2143E932200D79012 /* MainMenu.xib */,
+				8B3986C4143E932200D79012 /* main.m */,
+				8B3986C5143E932200D79012 /* SimpleLuaOpenGLView-Info.plist */,
+				8B3986C6143E932200D79012 /* SimpleLuaOpenGLView.lua */,
+				8B3986C7143E932200D79012 /* SimpleLuaOpenGLView_Prefix.pch */,
+				8B3986C8143E932200D79012 /* SimpleLuaOpenGLViewAppDelegate.h */,
+				8B3986C9143E932200D79012 /* SimpleLuaOpenGLViewAppDelegate.m */,
+			);
+			name = SimpleLuaOpenGLView;
+			path = SourceCode/SimpleLuaOpenGLView;
+			sourceTree = "<group>";
+		};
+		8B3986D9143E934A00D79012 /* HybridCoreAnimationScriptability */ = {
+			isa = PBXGroup;
+			children = (
+				8B3986DA143E934A00D79012 /* CoreAnimationScriptability-Info.plist */,
+				8B3986DB143E934A00D79012 /* CoreAnimationScriptability_Prefix.pch */,
+				8B3986DC143E934A00D79012 /* CoreAnimationScriptabilityAppDelegate.h */,
+				8B3986DD143E934A00D79012 /* CoreAnimationScriptabilityAppDelegate.m */,
+				8B3986DE143E934A00D79012 /* InfoPlist.strings */,
+				8B3986E0143E934A00D79012 /* MainMenu.xib */,
+				8B3986E2143E934A00D79012 /* LCFileWatch.h */,
+				8B3986E3143E934A00D79012 /* LCFileWatch.m */,
+				8B3986E4143E934A00D79012 /* main.m */,
+				8B3986E5143E934A00D79012 /* MyAnimationDescription.lua */,
+				8B3986E6143E934A00D79012 /* TextEditorSupport.h */,
+				8B3986E7143E934A00D79012 /* TextEditorSupport.m */,
+			);
+			name = HybridCoreAnimationScriptability;
+			path = SourceCode/HybridCoreAnimationScriptability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B398669143E928E00D79012 /* SimpleLuaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B398670143E928E00D79012 /* Build configuration list for PBXNativeTarget "SimpleLuaView" */;
+			buildPhases = (
+				8B398666143E928E00D79012 /* Resources */,
+				8B398667143E928E00D79012 /* Sources */,
+				8B398668143E928E00D79012 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLuaView;
+			productName = SimpleLuaView;
+			productReference = 8B39866A143E928E00D79012 /* SimpleLuaView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B398676143E92A900D79012 /* SimpleLuaOpenGLView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B39867C143E92AA00D79012 /* Build configuration list for PBXNativeTarget "SimpleLuaOpenGLView" */;
+			buildPhases = (
+				8B398673143E92A900D79012 /* Resources */,
+				8B398674143E92A900D79012 /* Sources */,
+				8B398675143E92A900D79012 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLuaOpenGLView;
+			productName = SimpleLuaOpenGLView;
+			productReference = 8B398677143E92A900D79012 /* SimpleLuaOpenGLView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B398681143E92BE00D79012 /* HybridCoreAnimationScriptability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B398687143E92BE00D79012 /* Build configuration list for PBXNativeTarget "HybridCoreAnimationScriptability" */;
+			buildPhases = (
+				8B39867E143E92BE00D79012 /* Resources */,
+				8B39867F143E92BE00D79012 /* Sources */,
+				8B398680143E92BE00D79012 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HybridCoreAnimationScriptability;
+			productName = HybridCoreAnimationScriptability;
+			productReference = 8B398682143E92BE00D79012 /* HybridCoreAnimationScriptability.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B398657143E925700D79012 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8B39865A143E925700D79012 /* Build configuration list for PBXProject "LuaCocoaDemo" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 8B398655143E925700D79012;
+			productRefGroup = 8B39866B143E928E00D79012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B398669143E928E00D79012 /* SimpleLuaView */,
+				8B398676143E92A900D79012 /* SimpleLuaOpenGLView */,
+				8B398681143E92BE00D79012 /* HybridCoreAnimationScriptability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B398666143E928E00D79012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39869F143E92FB00D79012 /* SimpleLuaView.lua in Resources */,
+				8B398699143E92E200D79012 /* InfoPlist.strings in Resources */,
+				8B39869A143E92E200D79012 /* MainMenu.xib in Resources */,
+				8B39869C143E92E200D79012 /* SimpleLuaView-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B398673143E92A900D79012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3986D0143E933400D79012 /* SimpleLuaOpenGLView.lua in Resources */,
+				8B3986CA143E932200D79012 /* InfoPlist.strings in Resources */,
+				8B3986CB143E932200D79012 /* MainMenu.xib in Resources */,
+				8B3986CD143E932200D79012 /* SimpleLuaOpenGLView-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39867E143E92BE00D79012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3986F0143E935C00D79012 /* MyAnimationDescription.lua in Resources */,
+				8B3986E8143E934A00D79012 /* CoreAnimationScriptability-Info.plist in Resources */,
+				8B3986EA143E934A00D79012 /* InfoPlist.strings in Resources */,
+				8B3986EB143E934A00D79012 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B398667143E928E00D79012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39869B143E92E200D79012 /* main.m in Sources */,
+				8B39869E143E92E200D79012 /* SimpleLuaViewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B398674143E92A900D79012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3986CC143E932200D79012 /* main.m in Sources */,
+				8B3986CF143E932200D79012 /* SimpleLuaOpenGLViewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39867F143E92BE00D79012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3986E9143E934A00D79012 /* CoreAnimationScriptabilityAppDelegate.m in Sources */,
+				8B3986EC143E934A00D79012 /* LCFileWatch.m in Sources */,
+				8B3986ED143E934A00D79012 /* main.m in Sources */,
+				8B3986EF143E934A00D79012 /* TextEditorSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B39868F143E92E200D79012 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B398690143E92E200D79012 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B398691143E92E200D79012 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B398692143E92E200D79012 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8B3986C0143E932200D79012 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3986C1143E932200D79012 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B3986C2143E932200D79012 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3986C3143E932200D79012 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8B3986DE143E934A00D79012 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3986DF143E934A00D79012 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B3986E0143E934A00D79012 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3986E1143E934A00D79012 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B398658143E925700D79012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8B398659143E925700D79012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		8B39866E143E928E00D79012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SimpleLuaView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SimpleLuaView;
+			};
+			name = Debug;
+		};
+		8B39866F143E928E00D79012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SimpleLuaView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SimpleLuaView;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8B39867A143E92AA00D79012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SimpleLuaOpenGLView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SimpleLuaOpenGLView;
+			};
+			name = Debug;
+		};
+		8B39867B143E92AA00D79012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SimpleLuaOpenGLView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SimpleLuaOpenGLView;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8B398685143E92BE00D79012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "HybridCoreAnimationScriptability-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = HybridCoreAnimationScriptability;
+			};
+			name = Debug;
+		};
+		8B398686143E92BE00D79012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "HybridCoreAnimationScriptability-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = HybridCoreAnimationScriptability;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B39865A143E925700D79012 /* Build configuration list for PBXProject "LuaCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B398658143E925700D79012 /* Debug */,
+				8B398659143E925700D79012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B398670143E928E00D79012 /* Build configuration list for PBXNativeTarget "SimpleLuaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39866E143E928E00D79012 /* Debug */,
+				8B39866F143E928E00D79012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B39867C143E92AA00D79012 /* Build configuration list for PBXNativeTarget "SimpleLuaOpenGLView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39867A143E92AA00D79012 /* Debug */,
+				8B39867B143E92AA00D79012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B398687143E92BE00D79012 /* Build configuration list for PBXNativeTarget "HybridCoreAnimationScriptability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B398685143E92BE00D79012 /* Debug */,
+				8B398686143E92BE00D79012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B398657143E925700D79012 /* Project object */;
+}
