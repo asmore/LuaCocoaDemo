@@ -1,0 +1,15 @@
+这是使用Xcode3.2.6来编译LuaCocoa的Example的demo project.
+
+http://playcontrol.net/opensource/LuaCocoa/
+
+1.下载LuaCocoa-0.3.1.dmg, 挂载并将其中文件都复制出来。
+
+2.将LuaCocoa.framework 复制到 /Library/Frameworks
+
+3.新建一个Empty工程，保存在Examples/Integrated下
+   为工程添加3个新的Target,然后将SourceCode下的3个目录，分别添加到各自的目标下
+  
+  为每个目标的Linked Libraries添加LuaCocoa.framework 
+   *.lua文件不能编译，所以不用放在Compile Sources节下，，拖到Target的Copy Bundle Resource节下，
+   
+CoreAnimationScriptability这个Target例子用到了CALayer，需要添加QuartzCore.framework
